@@ -1,0 +1,5 @@
+inicio
+calcule num1 + num2
+se num1 + num2 >= 1000 adicone 10% de imposto no resultado
+fim
+print resultado
