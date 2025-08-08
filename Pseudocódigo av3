@@ -1,5 +1,29 @@
-inicio
-calcule num1 + num2
-se num1 + num2 >= 1000 adicone 10% de imposto no resultado
-fim
-print resultado
+Início
+  Solicitar preço do produto
+  Ler preço
+
+  Solicitar percentual de desconto
+  Ler desconto
+
+  Calcular preço com desconto = preço - (preço * desconto / 100)
+
+  Definir limite para aplicar imposto (exemplo 100)
+  Definir percentual do imposto (exemplo 10%)
+
+  Se preço com desconto > limite então
+    Calcular imposto = preço com desconto * percentual do imposto / 100
+  Senão
+    imposto = 0
+  Fim se
+
+  Calcular preço final = preço com desconto + imposto
+
+  Mostrar preço original
+  Mostrar preço com desconto
+  Se imposto > 0 então
+    Mostrar valor do imposto
+  Senão
+    Mostrar que imposto não foi aplicado
+  Fim se
+  Mostrar preço final
+Fim
